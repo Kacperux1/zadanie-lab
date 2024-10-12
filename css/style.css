@@ -1,0 +1,114 @@
+
+body{
+    background-image: linear-gradient(to bottom right,rgb(125, 185, 7), rgb(12, 96, 192));
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+#description{
+    background-image: url(../img/tatery.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-style: sans-serif;
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 1410px;
+    border-radius: 50px;
+    padding:70px 0;
+    font-size: 30px;
+    font-family: Arial;
+
+}
+
+#tatry_small{
+    align-items: left;
+    margin-left: 5px;
+    width: 400px;
+    height: 300px;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+h1{
+    font-size:40px;
+}
+h2{
+    margin:30px;
+}
+table, td{
+    border: 3px solid;
+    border-color:green;
+    border-collapse:collapse;
+    background-color:linear-gradient(rgb(210, 20, 210), green);
+}
+h3{
+    margin:20px;
+    text-align: center;
+    
+}
+#encouragement_description{
+    text-align: justify;
+}
+
+#encouragement{
+    width:500px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    height:300px;
+    margin:15px;
+    font-family:Verdana;
+    font-size: 17px;
+}
+
+#tatry_small, #greeting, #film{
+    display: inline-block;
+    vertical-align: middle;
+}
+#film{
+    width:450px;
+    height:300px;
+    margin-right: 5px;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+h4,h5,h6{
+    font-size: 20px;
+}
+#tips_and_tricks{
+    width: 700px;
+    font-size:18px;
+}
+#film, #tatry_small, #tips_and_tricks{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#trip_expenses, #what_to_bring, #tips_and_tricks{
+    margin: 10px;
+    font-family:Verdana;
+}
+#trip_expenses{
+    background-color: rgb(188, 241, 127);
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+#what_to_bring{
+    background-color: rgb(143, 139, 243);
+    border-radius: 10px;
+}
+#tips_and_tricks{
+    background-color: rgb(251, 129, 129);
+    border-radius: 10px;
+}
+#wrapper{
+    background-color: bisque;
+    border-radius: 10px;
+}
